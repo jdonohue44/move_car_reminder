@@ -9,7 +9,7 @@ dest = 'jared.donohue@gmail.com'
 message = MIMEMultipart()
 message['From'] = source
 message['To'] = dest
-message['Subject'] = 'STREET CLEANING TOMORROW'
+message['Subject'] = 'STREET CLEANING FRIDAY'
 
 body = MIMEText("Street cleaning occurs on Brookline street the first Friday of every month.", 'plain')
 message.attach(body)
